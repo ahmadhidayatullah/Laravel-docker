@@ -1,1 +1,1 @@
-laravel 10 konfig docker
+laravel konfig docker
