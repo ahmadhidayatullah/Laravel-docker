@@ -23,7 +23,7 @@ services:
       - ./database/data:/var/lib/mysql
       - ./database/conf.d:/etc/mysql/conf.d:ro
     environment:
-      MYSQL_USER: Djambredd
+      MYSQL_USER: root
       MYSQL_PASSWORD: 123
       MYSQL_ROOT_PASSWORD: 123
       TZ: Asia/Jakarta
