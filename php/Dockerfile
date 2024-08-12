@@ -2,6 +2,9 @@ FROM php:8.3-fpm
 
 ENV COMPOSER_MEMORY_LIMIT='-1'
 
+ENV PS1="\u@\h:\w\\$ "
+ENV TZ="Asia/Jakarta"
+
 RUN apt-get update && \
     apt-get install -y --force-yes --no-install-recommends \
         libmemcached-dev \

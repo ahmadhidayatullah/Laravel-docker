@@ -26,6 +26,7 @@ services:
       MYSQL_USER: Djambredd
       MYSQL_PASSWORD: 123
       MYSQL_ROOT_PASSWORD: 123
+      TZ: Asia/Jakarta
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql  
     read_only: false
