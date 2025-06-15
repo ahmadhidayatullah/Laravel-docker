@@ -1,1 +1,1 @@
-laravel konfig docker
+https://youtu.be/qaYJ6Z1hJwA?si=Ds-jqITnlA7v_6Ll
